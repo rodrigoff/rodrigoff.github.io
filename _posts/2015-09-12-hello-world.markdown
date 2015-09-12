@@ -1,23 +1,15 @@
 ---
 title:  "Hello world!"
 date:   2015-09-12 19:25:00
-description: heya
+description: Welcome, stranger
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+Bem vindo ao meu blog!
 
-Jekyll also offers powerful support for code snippets:
+Nele vou falar sobre desenvolvimento web com node.js, asp.net e angularjs, devops e mais qualquer coisa legal que vier a mente.
 
-{% highlight csharp %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+[{% icon fa-github %}][github] [{% icon fa-linkedin %}][linkedin] [{% icon fa-twitter %}][twitter]
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+[github]: http://github.rodrigoff.com
+[linkedin]: http://br.linkedin.com/in/rodrigoff
+[twitter]: http://twitter.com/rodrigoff
