@@ -15,7 +15,7 @@ disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
+url:            'http://blog.rodrigoff.com'
 author:         'Rodrigo F. Fernandes'
 authorTwitter:  'rodrigoff'
 
