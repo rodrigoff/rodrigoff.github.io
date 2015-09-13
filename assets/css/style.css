@@ -132,6 +132,10 @@ table {
     box-sizing: border-box;
 }
 
+html
+{
+    background-color: #fbfbfb;
+}
 
 /* Clearfix */
 
@@ -316,8 +320,7 @@ nav.main-nav {
     padding: 20px 20px 0;
     /*max-width: 800px;*/
     /*width:100%;*/
-    background: #fff;
-    background: rgba(255, 255, 255, .90);
+    background: #fbfbfb;
     margin: 0 auto;
     text-align: right;
     /*position: fixed;*/
