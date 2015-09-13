@@ -12,7 +12,7 @@ baseurl: /
 domain_name: 'http://blog.rodrigoff.com'
 google_analytics: 'UA-67517193-1'
 disqus: true
-disqus_shortname: 'rorigoffernandes'
+disqus_shortname: 'rodrigoff'
 
 # Details for the RSS feed generator
 url:            'http://blog.rodrigoff.com'
