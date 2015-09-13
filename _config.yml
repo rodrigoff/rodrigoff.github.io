@@ -11,8 +11,8 @@ paginate: 20
 baseurl: /
 domain_name: 'http://blog.rodrigoff.com'
 google_analytics: 'UA-67517193-1'
-disqus: false
-disqus_shortname: 'your-disqus-shortname'
+disqus: true
+disqus_shortname: 'rorigoffernandes'
 
 # Details for the RSS feed generator
 url:            'http://blog.rodrigoff.com'
