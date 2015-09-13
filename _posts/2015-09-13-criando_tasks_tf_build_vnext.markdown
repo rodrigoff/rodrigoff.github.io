@@ -149,10 +149,6 @@ Os campos também podem ser agrupados através da propriedade "group", que vincu
 ],
 {% endhighlight %}
 
-O resultado é parecido com a seguinte imagem:
-
-![input_groups](/assets/images/posts/criando_tasks_tf_build_vnext/input_groups.png)
-
 ### Execução
 
 {% highlight json %}
