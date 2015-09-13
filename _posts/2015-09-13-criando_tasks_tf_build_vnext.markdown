@@ -165,7 +165,7 @@ Os campos também podem ser agrupados através da propriedade "group", que vincu
 }
 {% endhighlight %}
 
-Esta é uma seção simples contendo as instruções para execução da task. Caso a mesma tenha uma versão em NodeJS e PowerShell, preencha os 2 objetos, caso seja feita somente com uma tecnologia, basta remover o que não foi utilizado.
+Esta é uma seção simples contendo as instruções para execução da task através de um script NodeJS e/ou PowerShell. Não há necessidade de criar a task nas duas plataformas, a não ser que o objetivo seja executá-la em diversos sistemas operacionais. Caso não tenha esta necessidade, basta remover a seção não utilizada.
 
 
 Publicando uma task
