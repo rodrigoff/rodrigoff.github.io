@@ -1,0 +1,33 @@
+---
+title:  "Criando novas tasks para o TF Build vNext"
+date:   2015-09-13 15:25:00
+description: Criação e upload de novas tasks para o Team Foundation Build vNext
+---
+
+Recentemente comecei a utilizar a nova plataforma de build integrada ao TFS 2015 (ou Visual Studio Online), o Team Foundation Build vNext. Durante este período, tive a necessidade de criar novas tasks ou até mesmo alterar tasks já existentes e, portanto, vou falar sobre isso neste post.
+
+Tasks do TF Build são simplesmente pequenos pacotes contendo scripts feitos em PowerShell ou NodeJS com um "acesso privilegiado" à plataforma de build e a determinadas funções.
+
+Criando uma nova task
+---------------------
+
+A criação de uma task é feita pelo [tfx-cli (TFS Cross Platform Command Line Utility)][tfs-cli], uma ferramenta criada com o propósito de gerenciar extensões do TFS, de código aberto e feita pela própria Microsoft.
+
+O primeiro passo para criar uma task, é instalar o tfx, para isso, é necessário ter o NodeJS instalado e configurado, e simplesmente instalar o pacote pelo npm:
+
+{% highlight powershell %}
+npm install -g tfx-cli
+{% endhighlight %}
+
+Feito isto, basta executar o seguinte comando:
+
+{% highlight powershell %}
+tfx build tasks create
+{% endhighlight %}
+
+E preencher os dados necessários:
+
+
+Pronto, já temos nossa estrutura
+
+[tfs-cli]:https://github.com/Microsoft/tfs-cli
