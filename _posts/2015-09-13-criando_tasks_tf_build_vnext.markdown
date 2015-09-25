@@ -1,6 +1,6 @@
 ---
 title:  "Criando novas tasks para o TF Build vNext"
-date:   2015-09-13 18:20:00
+date:   2015-09-25 18:20:00
 description: Criação e upload de novas tasks para o Team Foundation Build vNext
 ---
 
