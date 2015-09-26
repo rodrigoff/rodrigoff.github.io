@@ -1,10 +1,13 @@
 ---
 title:  "Criando novas tasks para o TF Build vNext"
-date:   2015-09-25 18:20:00
+date:   2015-09-26 13:22:52
 description: Criação e upload de novas tasks para o Team Foundation Build vNext
 ---
 
 Recentemente comecei a utilizar a nova plataforma de build integrada ao TFS 2015 (ou Visual Studio Online), o Team Foundation Build vNext. Durante este período, tive a necessidade de criar novas tasks ou até mesmo alterar tasks já existentes e, portanto, vou falar sobre isso neste post.
+
+O que exatamente é uma task?
+---------------------------
 
 Tasks do TF Build são simplesmente pequenos pacotes contendo scripts feitos em PowerShell ou NodeJS com um "acesso privilegiado" à plataforma de build e a determinadas funções.
 
@@ -77,7 +80,7 @@ Vou dividir a explicação destas configurações em 3 seções, configurações
 
 A maior parte das configurações é auto explicativa, porém, existem algumas menos óbvias, como a configuração "visibility", "demands" e "version" e "instanceNameFormat. Pela falta de uma documentação oficial até o momento, a seção a seguir foi feita baseada em observações durante a criação de algumas tasks customizadas.
 
-* **Visibility**: possui 3 possíveis valores, "Build", "Release" e "Preview". O recomendado é utilizar o que foi definido como padrão pelo tfx, "Build" e "Release", para evitar futuros problemas. De acordo com algumas fontes, a opção "Preview" seria somente para uso interno, nos releases de preview do VSO.
+* **Visibility**: possui 3 possíveis valores, "Build", "Release" e "Preview". O recomendado é utilizar o que foi definido como padrão pelo tfx, "Build" e "Release", para evitar futuros problemas. De acordo com algumas fontes, a opção "Preview" seria somente para uso interno da Microsoft, fazendo com que a task esteja disponível somente para usuários registrados no programa de preview do VSO.
 
 * **Demands**: array de string contendo as demandas necessárias do agente. Caso sua task dependa de alguma ferramenta, variável de ambiente ou algo parecido, isto deve ser definido nesta configuração.
 
