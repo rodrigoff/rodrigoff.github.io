@@ -2,7 +2,7 @@
 title:  "Criando novas tasks para o TF Build vNext"
 date:   2015-09-26 13:22:52
 description: Criação e upload de novas tasks para o Team Foundation Build vNext
-thumbnail: /assets/images/posts/criando_tasks_tf_build_vnext/thumbnail.jpg
+thumbnail: /assets/images/posts/criando_novas_tasks_tf_build_vnext/thumbnail.jpg
 category: DevOps
 tags: devops tfs vnext build
 ---
@@ -203,8 +203,8 @@ tfx build tasks upload <taskPath>
 Onde "taskPath" é o caminho no qual a task foi criada.
 Pronto, agora temos nossa nova task pronta para ser utilizada.
 
-![Add build step](/assets/images/posts/criando_tasks_tf_build_vnext/add_build_step.png)
-![Configure build step](/assets/images/posts/criando_tasks_tf_build_vnext/configure_build_step.png)
+![Add build step](/assets/images/posts/criando_novas_tasks_tf_build_vnext/add_build_step.png)
+![Configure build step](/assets/images/posts/criando_novas_tasks_tf_build_vnext/configure_build_step.png)
 
 [tfs-cli]:https://github.com/Microsoft/tfs-cli
 [vso-agent-tasks]:https://github.com/Microsoft/vso-agent-tasks
