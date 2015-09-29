@@ -2,9 +2,13 @@
 title:  "Criando novas tasks para o TF Build vNext"
 date:   2015-09-26 13:22:52
 description: Criação e upload de novas tasks para o Team Foundation Build vNext
+thumbnail: /assets/images/posts/criando_tasks_tf_build_vnext/thumbnail.jpg
+category: DevOps
+tags: devops tfs vnext build
 ---
 
 Recentemente comecei a utilizar a nova plataforma de build integrada ao TFS 2015 (ou Visual Studio Online), o Team Foundation Build vNext. Durante este período, tive a necessidade de criar novas tasks ou até mesmo alterar tasks já existentes e, portanto, vou falar sobre isso neste post.
+
 
 O que exatamente é uma task?
 ---------------------------
